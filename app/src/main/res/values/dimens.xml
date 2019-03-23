@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_size_hint">20dp</dimen>
+    <dimen name="txt_size_button">25dp</dimen>
+    <dimen name="margin_et">20dp</dimen>
+    <dimen name="bt_margin">30dp</dimen>
+    <dimen name="result_text">35dp</dimen>
+</resources>
