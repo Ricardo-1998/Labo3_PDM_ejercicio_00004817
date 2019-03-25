@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>
         </activity>
-        <activity android:name=".ShareActivity" />
+        <activity android:name=".ShareActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <data android:mimeType="text/plain"/>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

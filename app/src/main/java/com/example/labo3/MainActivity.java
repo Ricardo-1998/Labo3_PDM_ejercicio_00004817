@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             mEmail.setError("Obligatorio");
             cont++;
         }
-        if(mGender.getText().toString().equalsIgnoreCase("") ){
+        if(mGender.getText().toString().equalsIgnoreCase("")){
             mGender.setError("Obligatorio");
             cont++;
         }

@@ -5,4 +5,6 @@
     <dimen name="margin_et">20dp</dimen>
     <dimen name="bt_margin">30dp</dimen>
     <dimen name="result_text">35dp</dimen>
+    <dimen name="margin_tv">10dp</dimen>
+    <dimen name="tv_big">30sp</dimen>
 </resources>

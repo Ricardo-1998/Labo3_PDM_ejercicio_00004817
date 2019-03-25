@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,11 +8,33 @@
     android:gravity="center">
 
     <TextView
-        android:id="@+id/tv_result"
+        android:id="@+id/tv_result_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/result_text"
         android:text="@string/nothing_to_show"/>
+
+    <TextView
+        android:id="@+id/tv_result_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/result_text"
+        android:text="@string/nothing_to_show"
+        android:layout_marginTop="@dimen/margin_tv"/>
+    <TextView
+        android:id="@+id/tv_result_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/result_text"
+        android:text="@string/nothing_to_show"
+        android:layout_marginTop="@dimen/margin_tv"/>
+    <TextView
+        android:id="@+id/tv_result_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/result_text"
+        android:text="@string/nothing_to_show"
+        android:layout_marginTop="@dimen/margin_tv"/>
 
     <Button
         android:id="@+id/bt_share"
